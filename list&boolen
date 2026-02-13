@@ -1,0 +1,27 @@
+Python Lists and Boolean Concepts
+Comprehensive Teaching Notes for Examination and MCQ Preparation
+Part 1: Python List Basics
+1. A list is an ordered, mutable collection that allows duplicate values.
+2. Lists are created using square brackets []. Example: numbers = [1, 2, 3].
+3. Indexing starts from 0. First element is at index 0.
+4. Negative indexing allows access from the end. Example: list[-1] gives last element.
+5. Lists are mutable, meaning elements can be changed after creation.
+6. The len() function returns the total number of elements in a list.
+7. append() adds one element at the end of the list.
+8. extend() adds multiple elements from another iterable.
+9. insert(index, value) adds an element at a specific position.
+10. remove(value) removes the first matching value, while pop(index) removes by index.
+11. List slicing syntax: list[start:stop:step]. Stop index is excluded.
+12. copy() creates a new list, while assignment creates a reference.
+Part 2: Boolean Values
+13. Boolean data type has only two values: True and False (case-sensitive).
+14. bool() function converts values into True or False.
+15. False values include: False, None, 0, empty string '', empty list [], empty dictionary {}.
+16. Comparison operators: ==, !=, >, <, >=, <= return Boolean results.
+17. Boolean values are commonly used in conditional statements like if, elif, else.
+Part 3: Boolean Operations
+18. Logical AND returns True only if both conditions are True.
+19. Logical OR returns True if at least one condition is True.
+20. Logical NOT reverses the Boolean value.
+21. Operator precedence: not > and > or.
+22. Python uses short-circuit evaluation in logical expressions.
